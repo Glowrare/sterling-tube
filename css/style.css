@@ -1,9 +1,32 @@
-
-
-.menu-search-box {
-    padding-right: 500px !important;
+* {
+    box-sizing: border-box;
 }
 
-/* form .btn {
-    margin-right: 0 !important;
-} */
+.menu-search-box {
+    padding-right: 200px;
+    border-radius: 0;
+}
+
+form .btn {
+    border-radius: 0;
+    background-color: #f8f8f8
+}
+
+.side-menu .sidebar ul li{
+    padding: 5px;
+    list-style: none;
+}
+
+.side-menu .sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+  
+.side-menu .sidebar ul li a .fas{
+    width: 25px;
+}
+
+.side-menu .sidebar ul li:hover{
+    background-color: #f1f1f1;
+  }
