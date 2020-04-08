@@ -221,3 +221,7 @@ form .btn {
 .thumbnail-info {
     margin-bottom: 15px;
 }
+
+video {
+    width: 900px;
+}
