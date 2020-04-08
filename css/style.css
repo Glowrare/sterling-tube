@@ -80,6 +80,32 @@ hr {
 .card {
     border: none;
     border-radius: 0;
+    overflow: hidden;
 }
 
+.card-body {
+    display: flex
+}
 
+.thumb-image {
+    height: 143px;
+    overflow: hidden;
+}
+
+.card-text-content h6 {
+    height: 40px;
+    overflow: hidden;
+}
+
+.card-image-content img{
+    padding-right: 8px;
+}
+
+.card-text-content a{
+    text-decoration: none;
+    color: #555151;
+}
+
+.each-thumb-space {
+    width: 25%;
+}
