@@ -80,6 +80,10 @@ div .col-md-9 .nav-item i {
     text-align: center;
 }
 
+.video-page.active {
+    display: none;
+}
+
 #sidebar.active hr,
 #sidebar.active .CTAs {
     display: none;
