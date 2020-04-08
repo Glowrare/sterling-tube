@@ -2,6 +2,129 @@
     box-sizing: border-box;
 }
 
+body {
+    background: rgb(249, 249, 249);
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: white !important;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.whole-body-content {
+    display: flex;
+}
+
+.btn-info {
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+div .col-md-9 .nav-item i {
+    color: grey;
+    font-size: 20px;
+}
+
+/* ---------------------------
+    SIDEBAR STYLE STARTS HERE
+------------------------------ */
+
+/* Default properties */
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    background: white;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #f1f1f1;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* active properties */
+#sidebar.active {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#sidebar.active hr,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .minibar-hide,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: red;
+}
+
+/* ---------------------------
+    SIDEBAR STYLE ENDS HERE
+------------------------------ */
+
+.wrapper #sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+.wrapper #sidebar ul li .fa-home {
+    color: red;
+}
+
 .menu-search-box {
     padding-right: 200px;
     border-radius: 0;
@@ -10,22 +133,6 @@
 form .btn {
     border-radius: 0;
     background-color: #f8f8f8
-}
-
-/* .sidebar{
-    position: fixed;
-    left: 0;
-    top: 56px;
-    width: 100%;
-} */
-
-hr {
-    width: 200px;
-}
-
-.side-menu .sidebar ul {
-    padding: 0;
-    width: 150px;
 }
 
 .side-menu .sidebar ul li{
@@ -39,25 +146,9 @@ hr {
     display: block;
 }
 
-.side-menu .sidebar .nav-item .nav-link {
-    padding: 0;
-}
-  
-.side-menu .sidebar ul li a .fas{
-    width: 25px;
-}
-
-.side-menu .sidebar ul li:hover{
-    background-color: #f1f1f1;
-}
-
-
-.side-menu .sidebar ul li .fa-home {
-    color: red;
-}
 .video-thumbnails {
-    max-width: 95%;
-}
+    padding: 5px;
+} 
 
 /* .container {
     margin: 15px 0;
@@ -81,10 +172,12 @@ hr {
     border: none;
     border-radius: 0;
     overflow: hidden;
+    background: inherit;
 }
 
 .card-body {
-    display: flex
+    display: flex;
+    padding-left: 0;
 }
 
 .thumb-image {
@@ -93,7 +186,7 @@ hr {
 }
 
 .card-text-content h6 {
-    height: 40px;
+    max-height: 40px;
     overflow: hidden;
 }
 
