@@ -12,8 +12,15 @@ form .btn {
     background-color: #f8f8f8
 }
 
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 56px;
+    width: 100%;
+}
+
 .side-menu .sidebar ul li{
-    padding: 5px;
+    padding: 5px 0;
     list-style: none;
 }
 
@@ -22,6 +29,10 @@ form .btn {
     color: #000000;
     display: block;
 }
+
+.side-menu .sidebar .nav-item .nav-link {
+    padding: 0;
+}
   
 .side-menu .sidebar ul li a .fas{
     width: 25px;
@@ -29,4 +40,17 @@ form .btn {
 
 .side-menu .sidebar ul li:hover{
     background-color: #f1f1f1;
-  }
+}
+
+
+.side-menu .sidebar ul li .fa-home {
+    color: red;
+}
+.video-thumbnails {
+    max-width: 95%;
+}
+
+.container {
+    margin: 15px 0;
+    max-width: 100vw;
+}
