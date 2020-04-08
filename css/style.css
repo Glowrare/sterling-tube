@@ -11,20 +11,13 @@ body {
     background: white !important;
     border: none;
     border-radius: 0;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-btn {
-    box-shadow: none;
-    outline: none !important;
-    border: none;
 }
 
 .whole-body-content {
     display: flex;
 }
 
-.btn-info {
+.btn-ppty {
     background: transparent;
     border: none;
     color: black;
@@ -35,10 +28,13 @@ div .col-md-9 .nav-item i {
     font-size: 20px;
 }
 
+.col-md-4 {
+    align-items: center;
+}
+
 /* ---------------------------
     SIDEBAR STYLE STARTS HERE
------------------------------- */
-
+   --------------------------- */
 /* Default properties */
 
 .wrapper {
@@ -121,9 +117,9 @@ a[aria-expanded="true"] {
     color: #000000;
     display: block;
 }
-.wrapper #sidebar ul li .fa-home {
+/* .wrapper #sidebar ul li .fas-home {
     color: red;
-}
+} */
 
 .menu-search-box {
     padding-right: 200px;
@@ -135,25 +131,9 @@ form .btn {
     background-color: #f8f8f8
 }
 
-.side-menu .sidebar ul li{
-    padding: 5px 0;
-    list-style: none;
-}
-
-.side-menu .sidebar ul li a{
-    text-decoration: none;
-    color: #000000;
-    display: block;
-}
-
 .video-thumbnails {
     padding: 5px;
-} 
-
-/* .container {
-    margin: 15px 0;
-    max-width: 100vw;
-} */
+}
 
 .flex-alignment {
     display: flex;
@@ -181,7 +161,7 @@ form .btn {
 }
 
 .thumb-image {
-    height: 143px;
+    max-height: 143px;
     overflow: hidden;
 }
 
@@ -200,5 +180,13 @@ form .btn {
 }
 
 .each-thumb-space {
-    width: 25%;
+    max-width: 25%;
+}
+
+.left-padding {
+    padding-left: 15px;
+}
+
+.right-padding {
+    padding-right: 15px;
 }
