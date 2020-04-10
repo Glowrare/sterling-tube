@@ -226,6 +226,16 @@ form .btn {
     margin-bottom: 15px;
 }
 
+.video-space {
+    width: 897px;
+}
+
+.videoplay {
+    width: 798px;
+    height: 449px;
+}
+
 video {
-    width: 900px;
+    width: 798px;
+    height: inherit;
 }
