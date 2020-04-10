@@ -20,6 +20,7 @@ body {
 .btn-ppty {
     background: transparent;
     border: none;
+    box-shadow: none !important;
     color: black;
 }
 
@@ -43,8 +44,8 @@ div .col-md-9 .nav-item i {
 }
 
 #sidebar {
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 240px;
+    max-width: 240px;
     background: white;
     color: inherit;
     transition: all 0.3s;
@@ -196,7 +197,7 @@ form .btn {
 }
 
 .trending-thumbnails {
-    width: 100%;    ;
+    width: 100%;
 }
 
 .trending-icon-font-increase {
@@ -226,6 +227,28 @@ form .btn {
     margin-bottom: 15px;
 }
 
+.video-space {
+    padding: 5px 40px;
+    width: 897px;
+    flex-direction: column;
+
+}
+
 video {
-    width: 900px;
+    width: 798px;
+    height: 449px;
+}
+
+.content-fill-view-width {
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.up-next-thumbnail {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.no-padding {
+    padding: 0;
 }
