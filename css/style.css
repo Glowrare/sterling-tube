@@ -51,7 +51,7 @@ div .col-md-9 .nav-item i {
     position: sticky;
     top: 70px;
     left: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #sidebar ul li a {
@@ -82,6 +82,7 @@ div .col-md-9 .nav-item i {
     max-width: 100px;
     min-height: 100vh;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .video-page.active {
@@ -120,13 +121,26 @@ a[aria-expanded="true"] {
     text-decoration: none;
     color: #000000;
     display: block;
+}
 
+#sidebar ul div {
+    padding: 10px;
+}
+
+#sidebar ul div a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 5px;
+    font-size: 0.9rem;
+}
+
+footer {
+    padding-left: 10px;
+}
 /* ---------------------------
     SIDEBAR STYLE ENDS HERE
 ------------------------------ */
 
-
-}
 /* .wrapper #sidebar ul li .fas-home {
     color: red;
 } */
