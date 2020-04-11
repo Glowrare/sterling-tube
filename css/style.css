@@ -145,8 +145,14 @@ footer {
     color: red;
 } */
 
+.dropdown .dropdown-menu {
+    width: 220px;
+    border-radius: 0;
+    line-height: 2rem;
+}
+
 .menu-search-box {
-    padding-right: 200px;
+    padding-right: 250px;
     border: solid 1px black;
     border-radius: 0;
     box-shadow: none !important;
