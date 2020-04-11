@@ -47,6 +47,11 @@ div .col-md-9 .nav-item i {
     background: white;
     color: inherit;
     transition: all 0.3s;
+    max-height: 100vh;
+    position: sticky;
+    top: 70px;
+    left: 0;
+    overflow-y: scroll;
 }
 
 #sidebar ul li a {
