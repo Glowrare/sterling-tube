@@ -145,8 +145,14 @@ footer {
     color: red;
 } */
 
+.dropdown .dropdown-menu {
+    width: 220px;
+    border-radius: 0;
+    line-height: 2rem;
+}
+
 .menu-search-box {
-    padding-right: 200px;
+    padding-right: 250px;
     border: solid 1px black;
     border-radius: 0;
     box-shadow: none !important;
@@ -217,6 +223,8 @@ form .btn {
     padding-right: 15px;
 }
 
+/* TRENDING FORMAT STARTS HERE */
+
 .trending-thumbnails {
     width: 100%;
 }
@@ -235,8 +243,16 @@ form .btn {
     border-bottom: black;
 }
 
+.trending-thumbnails .item-icons div {
+    padding-right: 70px;
+
+}
 .contain-trending {
     width: 75%;
+}
+
+.item-icons {
+    text-align: center;
 }
 
 .trending-thumbnails .horizontal-thumbnail a {
@@ -248,6 +264,25 @@ form .btn {
     margin-bottom: 15px;
 }
 
+.horizontal-thumbnail .thumbnail-image img {
+    width: 246px;
+}
+
+/* TRENDING FORMAT ENDS HERE */
+
 .no-padding {
     padding: 0;
+}
+
+.reduce-text-size {
+    font-size: 0.9rem;
+}
+
+.video-thumbnails .manage-area {
+    justify-content: space-between;
+}
+
+.video-thumbnails .manage-area a {
+    text-decoration: none;
+    color: inherit;
 }
