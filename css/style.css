@@ -36,8 +36,6 @@ div .col-md-9 .nav-item i {
 /* ---------------------------
     SIDEBAR STYLE STARTS HERE
    --------------------------- */
-/* Default properties */
-
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -113,14 +111,16 @@ a[aria-expanded="true"] {
     color: red;
 }
 
-/* ---------------------------
-    SIDEBAR STYLE ENDS HERE
------------------------------- */
-
 .wrapper #sidebar ul li a{
     text-decoration: none;
     color: #000000;
     display: block;
+
+/* ---------------------------
+    SIDEBAR STYLE ENDS HERE
+------------------------------ */
+
+
 }
 /* .wrapper #sidebar ul li .fas-home {
     color: red;
@@ -128,7 +128,9 @@ a[aria-expanded="true"] {
 
 .menu-search-box {
     padding-right: 200px;
+    border: solid 1px black;
     border-radius: 0;
+    box-shadow: none !important;
 }
 
 form .btn {
@@ -225,28 +227,6 @@ form .btn {
 
 .thumbnail-info {
     margin-bottom: 15px;
-}
-
-.video-space {
-    padding: 5px 40px;
-    width: 897px;
-    flex-direction: column;
-
-}
-
-video {
-    width: 798px;
-    height: 449px;
-}
-
-.content-fill-view-width {
-    min-width: 100vw;
-    max-width: 100vw;
-}
-
-.up-next-thumbnail {
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .no-padding {
